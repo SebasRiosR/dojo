@@ -13,3 +13,7 @@
     Contrata Ahora!
   {{/link-to}}
 </div>
+{{#each model as |carUnit|}}
+  {{cars-listing car=carUnit}}
+{{/each}}
+{{outlet}}
